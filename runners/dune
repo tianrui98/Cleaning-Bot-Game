@@ -1,0 +1,6 @@
+(executables
+ (names vroomba)
+  (public_names vroomba)
+  (modules vroomba)
+  (libraries vroomba ysc2229 core batteries graphics)
+  (package vroomba))
