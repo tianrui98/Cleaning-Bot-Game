@@ -3,7 +3,7 @@
 This is the final team project for the "YSC2229 Introductory Data Structures and Algorithms" course. There is an individual report where I reflect on the design choices the team has taken while programming this game. Part of this README.md file is taken from the project descriptions and instructions written by Prof. Ilya Sergey.
 
 ## Programme Overview
-Vroomba is a cleaning bot that can move in 4 directions. It is placed in a room of dirty tiles and the user can control the bot to move across a randomly generated room and clean all the tiles. My contributions to the team project are: RoomUtil.ml RoomGenerator.ml and tests.
+Vroomba is a cleaning bot that cleans the tile it sits on and the 8 adjacent tiles. It is initially placed in a room of dirty tiles and the goal of the game is to control the bot to move across a randomly generated room and clean all the tiles. My contributions to the team project are: RoomUtil.ml RoomGenerator.ml, RoomChecker, and various tests.
 
 ## Project Structure
 
