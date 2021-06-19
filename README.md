@@ -8,6 +8,7 @@ Vroomba is a cleaning bot that cleans the tile it sits on and the 8 adjacent til
 To play the game, open the folder in terminal. First type ```make``` and Enter. Then call ```bin/vroomba play rooms.txt test.sol```
 
 ![alt text](https://github.com/tianrui98/Cleaning-Bot-Game/edit/master/interface.png)
+![Screenshot](interface.png)
 ## Project Structure
 
 The code is split into three uneven parts.
