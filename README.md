@@ -5,6 +5,8 @@ This is the final team project for the "YSC2229 Introductory Data Structures and
 ## Programme Overview
 Vroomba is a cleaning bot that cleans the tile it sits on and the 8 adjacent tiles. It is initially placed in a room of dirty tiles and the goal of the game is to control the bot to move across a randomly generated room and clean all the tiles. My contributions to the team project are: RoomUtil.ml RoomGenerator.ml, RoomChecker, and various tests.
 
+To play the game, open the folder in terminal. First type ```make``` and Enter. Then call ```bin/vroomba play rooms.txt test.sol```
+
 ## Project Structure
 
 The code is split into three uneven parts.
