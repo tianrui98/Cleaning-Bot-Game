@@ -5,30 +5,16 @@ This is the final team project for the "YSC2229 Introductory Data Structures and
 ## Programme Overview
 Vroomba is a cleaning bot that cleans the tile it sits on and the 8 adjacent tiles. It is initially placed in a room of dirty tiles and the goal of the game is to control the bot to move across a randomly generated room and clean all the tiles. My contributions to the team project are: RoomUtil.ml RoomGenerator.ml, RoomChecker, and various tests.
 
-To play the game, open the folder in terminal. First type ```make``` and Enter. Then call ```bin/vroomba play rooms.txt test.sol```
+To play the game, go the the folder's directory in terminal. First execute ```make``` command. Then execute ```bin/vroomba play rooms.txt test.sol```
+The user should use the keys `w`, `a`, `s` and `d` to control the movements of Vroomba on a screen and `q` to exit the game (in this case the results of all complete games should be saved to the file).
 
 ![Screenshot](interface.png)
-## Project Structure
 
-The code is split into three uneven parts.
-
-* `lib` is a collection of the data structures and algorithms we were
-  studying in this class. 
-
-* `runners` is a folder with a single runner file needed to start the Vroomba game.
-
-* `vroomba` is a folder, where most of the development took
-  place. 
+Additionally, the programme can perform 3 other tasks: solving a room, checking a solution, and generating a random room.
   
 
-## Your Tasks
-
-The team's ultimate goal in this endeavour is to implement a tool suite for
-solving Vroomba navigation problems for arbitrary rooms. The suite is
-delivered as the executable runner, which, once compiled (into
-`bin/vroomba`) can be run from the terminal in multiple execution
-modes, depending on the first provided command-line argument. These
-are the runner modes and their corresponding additional arguments:
+## Execution Modes
+These are the runner modes and their corresponding additional arguments:
 
 * ```bin/vroomba solve input_file output_file```
 
@@ -91,13 +77,16 @@ are the runner modes and their corresponding additional arguments:
   resulting sequences of the moves for each room are written to the
   `output_file`. The resulting should be possible to check against
   `input_file` via the `check` mode of the runner.
+ 
 
-  The user should use the keys `w`, `a`, `s` and `d` to control the
-  movements of Vroomba on a screen and `q` to exit the game (in this
-  case the results of all complete games should be saved to the file).
+## Project Structure
 
-  There is no specific requirement on how the game should look. The
-  design of the user interface and possible enhancements are left up
-  to your discretion.
+The code is split into three parts.
 
+* `lib` is a collection of the data structures and algorithms we were
+  studying in this class. 
 
+* `runners` is a folder with a single runner file needed to start the Vroomba game.
+
+* `vroomba` is a folder, where most of the development took
+  place. 
